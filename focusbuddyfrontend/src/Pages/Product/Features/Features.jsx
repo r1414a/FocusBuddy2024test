@@ -19,11 +19,10 @@ export default function Features() {
         <div className="mt-10 lg:mt-20 flex flex-col lg:flex-row gap-10 lg:gap-4">
           <div className="basis-1/2 flex flex-col self-center text-start bg-white rounded-lg p-10 shadow-2xl shadow-lightbg ">
             <h2 className="text-2xl font-medium text-greenbg">
-              30, 50, & 70 minute sessions
+              50 minute sessions
             </h2>
             <p className="text-md xl:text-lg text-formgray mt-4 mb-8">
-              Choose from sessions of varying lengths: 25 minutes for quick
-              tasks or extend your focus with 50 or 75-minute sessions.
+              Extend your focus with 50 or 75-minute sessions.
             </p>
           </div>
           <div className="basis-1/2 self-center my-8 lg:my-0">

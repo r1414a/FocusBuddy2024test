@@ -31,7 +31,7 @@ const data = [
   {
     question: "Is FocusBuddy free?",
     answer:
-      "Yes of course, it is very possible to create an accordion component with another framework.",
+      "We have 1 month Trial period after that you need to buy subscription.",
   },
   {
     question: "Do I have to download another video call app?",
@@ -128,7 +128,7 @@ export default function Home() {
           <h2 className="text-2xl font-medium text-greenbg">Adaptable</h2>
           <p className="text-md xl:text-lg text-formgray mt-4 mb-8">
             Tailor your focus, whether it's a quick task
-            or a deep dive. 30, 50, and 70-minute sessions for managing daily
+            or a deep dive. 50-minute sessions for managing daily
             tasks (like cleaning utensils) or conquering major endeavors (like
             completing thesis).
           </p>

@@ -26,7 +26,7 @@ const data = [
   {
     question: "How long is a session?",
     answer:
-      "FocusBuddy offers three session duration options: 25, 50, and 75 minutes.",
+      "FocusBuddy offers sessions of 50-minutes duration.",
   },
 ];
 
