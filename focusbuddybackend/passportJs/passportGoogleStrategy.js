@@ -10,12 +10,12 @@ const getGeoInfo = require("../utils/getGeoInfo.js");
 
 async function addMonths(date, months) {
   const newDate = new Date(date);
-  newDate.setMonth(newDate.getMonth() + months);
+  Math.floor(newDate.setMonth(newDate.getMonth() + months) / 1000);
   return newDate;
 }
 
 async function getSubscriptionDetails() {
-  const today = new Date();
+  const today = Math.floor(new Date()/1000);
   const nextMonthDate = await addMonths(today, 1);
 
   const plan_start_date = today;
