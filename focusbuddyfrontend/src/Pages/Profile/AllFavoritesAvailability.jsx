@@ -61,14 +61,8 @@ const navigate = useNavigate();
       matchedPersonFullName: session.fullName,
       matchedPersonProfilePic: session.profilePic,
       matchedPersonProfileLink: session.profileLink,
-      name:
-        userProfile.givenName +
-        " " +
-        (userProfile.familyName ? userProfile.familyName[0] : " "),
-      fullName:
-        userProfile.givenName +
-        " " +
-        (userProfile.familyName ? userProfile.familyName : " "),
+      name: userProfile.givenName + ' ' + userProfile.familyName[0],
+      fullName: userProfile.givenName + ' ' + userProfile.familyName,
       profilePic: userProfile.profilePic,
       profileLink: userProfile.userProfileLink,
       taskType: activeEventTab,
