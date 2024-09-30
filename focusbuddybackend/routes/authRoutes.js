@@ -142,8 +142,8 @@ async function getSubscriptionDetails() {
   const today = new Date();
   const nextMonthDate = await addMonths(today, 1);
 
-  const plan_start_date = today.toISOString().split("T")[0];
-  const plan_end_date = nextMonthDate.toISOString().split("T")[0];
+  const plan_start_date = today;
+  const plan_end_date = nextMonthDate;
   const plan_status = "created";
   const plan_type = "free";
 
