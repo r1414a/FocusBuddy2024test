@@ -75,6 +75,7 @@ app.use(
             maxAge: 7 * 24 * 60 * 60 * 1000,
             // maxAge: 60 * 60 * 1000
             secure: true,
+            domain: process.env.CLIENT_PRO_URL
             sameSite: "lax",
         },
         store: MongoStore.create({
